@@ -1,4 +1,4 @@
-name1 = "larry\'s"+
+name1 = "larry\'s"
 name2 = "curly\'s"
 name3 = "moe\'s"
 health = 60
