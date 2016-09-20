@@ -1,5 +1,6 @@
+str = "Hello Welt"
 3.times do 
-		puts "Hello Welt"
+		puts str
 
 	end
 		puts Time.now

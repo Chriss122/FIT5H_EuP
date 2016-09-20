@@ -11,3 +11,8 @@ j. rufen Sie die Datei hello.rb auf der Konsole auf
 k. speichern Sie  die Willkommensnachricht in der Variable hello
 l. geben sie die Willkommensnachricht drei mal hintereinander aus
 m. Geben Sie die aktuelle Zeit aus
+
+
+
+
+Hallo Welt, ist das Wetter nicht schoen.
