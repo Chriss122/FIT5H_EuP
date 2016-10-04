@@ -26,10 +26,27 @@ class Player
 end
 
 player1 = Player.new("Christian", 100)
-puts player1.say_hello
+player1.say_hello
 player1.blam
 
 
 player2 = Player.new("Kim")
-puts player2.say_hello
+player2.say_hello
 player2.w00t
+
+player3 = Player.new("Tobias")
+player3.say_hello
+player3.w00t
+
+
+
+#ARRAY
+
+Alle = [player1, player2, player3]
+puts Alle.size
+
+Alle.each do |spieler|
+	puts spieler.say_hello
+	puts spieler.blam
+	
+end

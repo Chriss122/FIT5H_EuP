@@ -24,5 +24,10 @@ Methoden von Arrays
 	Löschen von Element
 		seats.delete_at(3)
 
+Zufälliges anordnen
+	jahreszeiten.shuffle
+	jahreszeiten.rotate
 	
+
+
 
