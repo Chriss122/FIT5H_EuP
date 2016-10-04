@@ -6,7 +6,7 @@ Definition
 		seats = Array.new
 		
 		seats = ["wert1", "wert2"]
-		seats = %w(wert1 wert2)
+		seats = %w[wert1 wert2]
 
 
 Werte hinzufügen
@@ -25,9 +25,11 @@ Methoden von Arrays
 		seats.delete_at(3)
 
 Zufälliges anordnen
-	jahreszeiten.shuffle
-	jahreszeiten.rotate
-	
+	Zufällig
+		jahreszeiten.shuffle       zum speichern am Ende !
+	Rotieren:
+		jahreszeiten.rotate        zum speichern am Ende !
+
 
 
 
