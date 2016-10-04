@@ -31,3 +31,8 @@ movie.title ="GYnniies"
 puts movie.title
 puts movie.normalized_rank
 
+movies.each do |movie|
+	movie.thumbs_down
+	puts movie
+end
+
