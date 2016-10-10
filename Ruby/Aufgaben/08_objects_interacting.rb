@@ -26,7 +26,7 @@ class Game
     @player = []
   end
 
-  def add_movie(player)
+  def add_player(player)
     @player << player
   end
 
@@ -39,45 +39,50 @@ class Game
 end
 end
 class Player 
-	def initialize(name, health=75)
+	def initialize(name, health=75, score=10)
 		@name = name
 		@health = health
+		@score = score
 	end
 
 
 	def say_hello
-		"Hallo ich bin #{@name} und habe ein Health von #{@health}"
-		
+
+	puts "I'm #{@name} with a health of #{@health} and a #{@score}"
+	
 	end
 
 	def blam
-		@health = @health + 10
-		puts "#{@name} got blamed #{@health} "
+		
+		puts "#{@name} got blamed"
 	
 	end
 
 	def w00t
-		@health = @health - 10
-		puts "#{@name} got w00ted #{@health}"
+		2.times do
+		puts "#{@name} got w00ted"
+	end
 	end
 
 
 
 end
 
-player1 = Player.new("Christian", 100)
+
+
+player1 = Player.new("Moe", 120, 123)
 player1.say_hello
 player1.blam
+player1.w00t
 
 
-player2 = Player.new("Kim")
+player2 = Player.new("Larry", 80, 85)
 player2.say_hello
+player2.blam
 player2.w00t
 
-player3 = Player.new("Tobias")
+player3 = Player.new("Curly", 145, 150)
 player3.say_hello
+player3.blam
 player3.w00t
 
-player = Game.new("Theo")
-  player.add_movie(player1)
-  player.play
