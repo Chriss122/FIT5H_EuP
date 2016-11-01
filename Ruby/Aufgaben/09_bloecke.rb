@@ -66,4 +66,8 @@ numbers.each do |index, nummer|
 	puts "Index: #{index} hat den #{nummer}"
 end
 
+#c)
+
+
+
 
